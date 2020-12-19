@@ -19,7 +19,7 @@ Run the above command in cron to schedule it to run periodically.
 
 ## TODO
 
-- [ ] Nixify the systemd service
+- [ ] Write a NixOS module using [systemd timer](https://nixos.wiki/wiki/Nix_Cookbook#Creating_Periodic_Services) taking .env file settings as Nix options.
 
 ## Credits
 
