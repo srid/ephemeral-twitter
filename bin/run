@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -xe
+ENV_FILE_PATH=$(pwd)/settings.env $(nix-build --no-out-link)/bin/fleets
